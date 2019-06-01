@@ -1,5 +1,4 @@
-function logName() {
-    console.log("John");
-}
+import { getFirefoxCompany } from './get-firefox-company';
 
-logName();
+const firefoxCompany = getFirefoxCompany();
+const firefoxLicense = "MPL";
